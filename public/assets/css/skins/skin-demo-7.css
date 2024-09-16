@@ -1,0 +1,1539 @@
+::-moz-selection {
+    background-color: #c66
+}
+
+::selection {
+    background-color: #c66
+}
+
+.bg-primary {
+    background-color: #c66 !important
+}
+
+.bg-secondary {
+    background-color: #fcb941 !important
+}
+
+a {
+    color: #c66
+}
+
+a:hover,
+a:focus {
+    color: #bf4040
+}
+
+.link-underline {
+    box-shadow: 0 1px 0 0 #c66
+}
+
+.text-primary {
+    color: #c66 !important
+}
+
+.text-secondary {
+    color: #fcb941 !important
+}
+
+.alert-primary {
+    background-color: #c66
+}
+
+.banner-badge .banner-link:hover .banner-link-text,
+.banner-badge .banner-link:focus .banner-link-text {
+    background-color: #c66
+}
+
+.header-3 .header-search-extended .btn,
+.header-4 .header-search-extended .btn {
+    background-color: transparent;
+    color: #333
+}
+
+.header-3 .header-search-extended .btn:hover,
+.header-3 .header-search-extended .btn:focus,
+.header-4 .header-search-extended .btn:hover,
+.header-4 .header-search-extended .btn:focus {
+    color: #c66
+}
+
+.btn-video {
+    color: #c66
+}
+
+.btn-video:hover,
+.btn-video:focus {
+    background-color: #fcb941}.brea
+d
+
+crumb-item a:hover,.bread
+crumb-item a:focus{color :
+    #c66}. btn-
+l
+
+ink{color :
+    #c66}. btn-
+l
+
+ink:hover,.btn-l
+ink:focus,.btn-l
+ink .btn-link-dark:hover,.btn-l
+ink .btn-link-dark:focus{color :
+    #c66;b order
+    -color:#c66}. btn-
+p
+
+rimary{color :
+    #fff;b ackgr
+    ound-color:#c66;b order
+    -color:#c66;b ox-sh
+    adow:none}. btn-
+p
+
+rimary:hover,.btn-p
+rimary:focus,.btn-p
+rimary.focus,.btn-p
+rimary:not(:disabled):not(.disabled):active,.btn-p
+rimary:not(:disabled):not(.disabled).active,.show>
+.btn-primary.dropdown-toggle{color :
+    #fff;b ackgr
+    ound-color:#fcb94 1;border
+    -color:#fcb94 1;box-sh
+    adow:none}. btn-
+p
+
+rimary.disabled,.btn-p
+rimary:disabled{color :
+    #fff;b ackgr
+    ound-color:#c66;b order
+    -color:#c66}. btn-
+s
+
+econdary{color :
+    #fff;b ackgr
+    ound-color:#fcb94 1;border
+    -color:#fcb94 1;box-sh
+    adow:none}. btn-
+s
+
+econdary:hover,.btn-s
+econdary:focus,.btn-s
+econdary.focus,.btn-s
+econdary:not(:disabled):not(.disabled):active,.btn-s
+econdary:not(:disabled):not(.disabled).active,.show>
+.btn-secondary.dropdown-toggle{color :
+    #fff;b ackgr
+    ound-color:#c66;b order
+    -color:#c66;b ox-sh
+    adow:none}. btn-
+s
+
+econdary.disabled,.btn-s
+econdary:disabled{color :
+    #fff;b ackgr
+    ound-color:#fcb94 1;border
+    -color:#fcb94 1}.btn-
+w
+
+hite{color :
+    #333;b ackgr
+    ound-color:#fff;b order
+    -color:#fff;b ox-sh
+    adow:none}. btn-
+w
+
+hite:hover,.btn-w
+hite:focus,.btn-w
+hite.focus,.btn-w
+hite:not(:disabled):not(.disabled):active,.btn-w
+hite:not(:disabled):not(.disabled).active,.show>
+.btn-white.dropdown-toggle{color :
+    #fff;b ackgr
+    ound-color:#c66;b order
+    -color:#c66;b ox-sh
+    adow:none}. btn-
+w
+
+hite.disabled,.btn-w
+hite:disabled{color :
+    #333;b ackgr
+    ound-color:#fff;b order
+    -color:#fff}. btn-
+w
+
+hite-2{color :
+    #333;b ackgr
+    ound-color:#fff;b order
+    -color:#fff;b ox-sh
+    adow:none}. btn-
+w
+
+hite-2:hover,.btn-w
+hite-2:focus,.btn-w
+hite-2.focus,.btn-w
+hite-2:not(:disabled):not(.disabled):active,.btn-w
+hite-2:not(:disabled):not(.disabled).active,.show>
+.btn-white-2.dropdown-toggle{color :
+    #fff;b ackgr
+    ound-color:#fcb94 1;border
+    -color:#fcb94 1;box-sh
+    adow:none}. btn-
+w
+
+hite-2.disabled,.btn-w
+hite-2:disabled{color :
+    #333;b ackgr
+    ound-color:#fff;b order
+    -color:#fff}. btn-
+p
+
+rimary-white{color :
+    #fff;b ackgr
+    ound-color:#c66;b order
+    -color:#c66;b ox-sh
+    adow:none}. btn-
+p
+
+rimary-white:hover,.btn-p
+rimary-white:focus,.btn-p
+rimary-white.focus,.btn-p
+rimary-white:not(:disabled):not(.disabled):active,.btn-p
+rimary-white:not(:disabled):not(.disabled).active,.show>
+.btn-primary-white.dropdown-toggle{color :
+    #c66;b ackgr
+    ound-color:#fff;b order
+    -color:#fff;b ox-sh
+    adow:none}. btn-
+p
+
+rimary-white.disabled,.btn-p
+rimary-white:disabled{color :
+    #fff;b ackgr
+    ound-color:#c66;b order
+    -color:#c66}. btn-
+w
+
+hite-primary{color :
+    #c66;b ackgr
+    ound-color:#fff;b order
+    -color:#fff;b ox-sh
+    adow:none}. btn-
+w
+
+hite-primary:hover,.btn-w
+hite-primary:focus,.btn-w
+hite-primary.focus,.btn-w
+hite-primary:not(:disabled):not(.disabled):active,.btn-w
+hite-primary:not(:disabled):not(.disabled).active,.show>
+.btn-white-primary.dropdown-toggle{color :
+    #fff;b ackgr
+    ound-color:#c66;b order
+    -color:#c66;b ox-sh
+    adow:none}. btn-
+w
+
+hite-primary.disabled,.btn-w
+hite-primary:disabled{color :
+    #c66;b ackgr
+    ound-color:#fff;b order
+    -color:#fff}. btn-
+d
+
+ark{color :
+    #fff;b ackgr
+    ound-color:#333;b order
+    -color:#333;b ox-sh
+    adow:none}. btn-
+d
+
+ark:hover,.btn-d
+ark:focus,.btn-d
+ark.focus,.btn-d
+ark:not(:disabled):not(.disabled):active,.btn-d
+ark:not(:disabled):not(.disabled).active,.show>
+.btn-dark.dropdown-toggle{color :
+    #fff;b ackgr
+    ound-color:#c66;b order
+    -color:#c66;b ox-sh
+    adow:none}. btn-
+d
+
+ark.disabled,.btn-d
+ark:disabled{color :
+    #fff;b ackgr
+    ound-color:#333;b order
+    -color:#333}. btn-
+o
+
+utline{color :
+    #c66;b ackgr
+    ound-color:transp arent;backgr
+    ound-image:none;b order
+    -color:#ebebe b;box-sh
+    adow:0 5px  10px rgba(0,0,0,0. 05 )} .btn-
+o
+
+utline:hover,.btn-o
+utline:focus,.btn-o
+utline.focus,.btn-o
+utline:not(:disabled):not(.disabled):active,.btn-o
+utline:not(:disabled):not(.disabled).active,.show>
+.btn-outline.dropdown-toggle{color :
+    #c66;b ackgr
+    ound-color:transp arent;border
+    -color:#ebebe b;box-sh
+    adow:0 5px  10px rgba(0,0,0,0. 15 )} .btn-
+o
+
+utline.disabled,.btn-o
+utline:disabled{color :
+    #c66;b ackgr
+    ound-color:transp arent}.btn-
+o
+
+utline-primary{color :
+    #c66;b ackgr
+    ound-color:transp arent;backgr
+    ound-image:none;b order
+    -color:#c66;b ox-sh
+    adow:none}. btn-
+o
+
+utline-primary:hover,.btn-o
+utline-primary:focus,.btn-o
+utline-primary.focus,.btn-o
+utline-primary:not(:disabled):not(.disabled):active,.btn-o
+utline-primary:not(:disabled):not(.disabled).active,.show>
+.btn-outline-primary.dropdown-toggle{color :
+    #c66;b ackgr
+    ound-color:transp arent;border
+    -color:#ebebe b;box-sh
+    adow:0 5px  10px rgba(0,0,0,0. 05 )} .btn-
+o
+
+utline-primary.disabled,.btn-o
+utline-primary:disabled{color :
+    #c66;b ackgr
+    ound-color:transp arent}.btn-
+o
+
+utline-primary-2{color :
+    #c66;b ackgr
+    ound-color:transp arent;backgr
+    ound-image:none;b order
+    -color:#c66;b ox-sh
+    adow:none}. btn-
+o
+
+utline-primary-2:hover,.btn-o
+utline-primary-2:focus,.btn-o
+utline-primary-2.focus,.btn-o
+utline-primary-2:not(:disabled):not(.disabled):active,.btn-o
+utline-primary-2:not(:disabled):not(.disabled).active,.show>
+.btn-outline-primary-2.dropdown-toggle{color :
+    #fff;b ackgr
+    ound-color:#c66;b order
+    -color:#c66;b ox-sh
+    adow:none}. btn-
+o
+
+utline-primary-2.disabled,.btn-o
+utline-primary-2:disabled{color :
+    #c66;b ackgr
+    ound-color:transp arent}.btn-
+o
+
+utline-light{color :
+    #fff;b ackgr
+    ound-color:transp arent;backgr
+    ound-image:none;b order
+    -color:#fff;b ox-sh
+    adow:none}. btn-
+o
+
+utline-light:hover,.btn-o
+utline-light:focus,.btn-o
+utline-light.focus,.btn-o
+utline-light:not(:disabled):not(.disabled):active,.btn-o
+utline-light:not(:disabled):not(.disabled).active,.show>
+.btn-outline-light.dropdown-toggle{color :
+    #c66;b ackgr
+    ound-color:transp arent;border
+    -color:#fff;b ox-sh
+    adow:none}. btn-
+o
+
+utline-light.disabled,.btn-o
+utline-light:disabled{color :
+    #fff;b ackgr
+    ound-color:transp arent}.btn-
+o
+
+utline-dark{color :
+    #333;b ackgr
+    ound-color:transp arent;backgr
+    ound-image:none;b order
+    -color:#d7d7d 7;box-sh
+    adow:none}. btn-
+o
+
+utline-dark:hover,.btn-o
+utline-dark:focus,.btn-o
+utline-dark.focus,.btn-o
+utline-dark:not(:disabled):not(.disabled):active,.btn-o
+utline-dark:not(:disabled):not(.disabled).active,.show>
+.btn-outline-dark.dropdown-toggle{color :
+    #c66;b ackgr
+    ound-color:transp arent;border
+    -color:#ebebe b;box-sh
+    adow:0 5px  10px rgba(0,0,0,0. 05 )} .btn-
+o
+
+utline-dark.disabled,.btn-o
+utline-dark:disabled{color :
+    #333;b ackgr
+    ound-color:transp arent}.btn-
+o
+
+utline-dark-2{color :
+    #333;b ackgr
+    ound-color:transp arent;backgr
+    ound-image:none;b order
+    -color:#ebebe b;box-sh
+    adow:none}. btn-
+o
+
+utline-dark-2:hover,.btn-o
+utline-dark-2:focus,.btn-o
+utline-dark-2.focus,.btn-o
+utline-dark-2:not(:disabled):not(.disabled):active,.btn-o
+utline-dark-2:not(:disabled):not(.disabled).active,.show>
+.btn-outline-dark-2.dropdown-toggle{color :
+    #c66;b ackgr
+    ound-color:#fafaf a;border
+    -color:#ebebe b;box-sh
+    adow:none}. btn-
+o
+
+utline-dark-2.disabled,.btn-o
+utline-dark-2:disabled{color :
+    #333;b ackgr
+    ound-color:transp arent}.btn-
+o
+
+utline-dark-3{color :
+    #333;b ackgr
+    ound-color:transp arent;backgr
+    ound-image:none;b order
+    -color:#d7d7d 7;box-sh
+    adow:none}. btn-
+o
+
+utline-dark-3:hover,.btn-o
+utline-dark-3:focus,.btn-o
+utline-dark-3.focus,.btn-o
+utline-dark-3:not(:disabled):not(.disabled):active,.btn-o
+utline-dark-3:not(:disabled):not(.disabled).active,.show>
+.btn-outline-dark-3.dropdown-toggle{color :
+    #c66;b ackgr
+    ound-color:transp arent;border
+    -color:#c66;b ox-sh
+    adow:none}. btn-
+o
+
+utline-dark-3.disabled,.btn-o
+utline-dark-3:disabled{color :
+    #333;b ackgr
+    ound-color:transp arent}.btn-
+o
+
+utline-darker{color :
+    #333;b ackgr
+    ound-color:transp arent;backgr
+    ound-image:none;b order
+    -color:#d7d7d 7;box-sh
+    adow:none}. btn-
+o
+
+utline-darker:hover,.btn-o
+utline-darker:focus,.btn-o
+utline-darker.focus,.btn-o
+utline-darker:not(:disabled):not(.disabled):active,.btn-o
+utline-darker:not(:disabled):not(.disabled).active,.show>
+.btn-outline-darker.dropdown-toggle{color :
+    #fff;b ackgr
+    ound-color:#c66;b order
+    -color:#c66;b ox-sh
+    adow:none}. btn-
+o
+
+utline-darker.disabled,.btn-o
+utline-darker:disabled{color :
+    #333;b ackgr
+    ound-color:transp arent}.btn-
+o
+
+utline-gray{color :
+    #333;b ackgr
+    ound-color:transp arent;backgr
+    ound-image:none;b order
+    -color:#95959 5;box-sh
+    adow:none}. btn-
+o
+
+utline-gray:hover,.btn-o
+utline-gray:focus,.btn-o
+utline-gray.focus,.btn-o
+utline-gray:not(:disabled):not(.disabled):active,.btn-o
+utline-gray:not(:disabled):not(.disabled).active,.show>
+.btn-outline-gray.dropdown-toggle{color :
+    #fff;b ackgr
+    ound-color:#c66;b order
+    -color:#c66;b ox-sh
+    adow:none}. btn-
+o
+
+utline-gray.disabled,.btn-o
+utline-gray:disabled{color :
+    #333;b ackgr
+    ound-color:transp arent}.btn-
+o
+
+utline-lightgray{color :
+    #333;b ackgr
+    ound-color:transp arent;backgr
+    ound-image:none;b order
+    -color:#ebebe b;box-sh
+    adow:none}. btn-
+o
+
+utline-lightgray:hover,.btn-o
+utline-lightgray:focus,.btn-o
+utline-lightgray.focus,.btn-o
+utline-lightgray:not(:disabled):not(.disabled):active,.btn-o
+utline-lightgray:not(:disabled):not(.disabled).active,.show>
+.btn-outline-lightgray.dropdown-toggle{color :
+    #c66;b ackgr
+    ound-color:#f5f6f 9;border
+    -color:#ebebe b;box-sh
+    adow:none}. btn-
+o
+
+utline-lightgray.disabled,.btn-o
+utline-lightgray:disabled{color :
+    #333;b ackgr
+    ound-color:transp arent}.btn-
+o
+
+utline-white{color :
+    #fff;b ackgr
+    ound-color:transp arent;backgr
+    ound-image:none;b order
+    -color:#fff;b ox-sh
+    adow:none}. btn-
+o
+
+utline-white:hover,.btn-o
+utline-white:focus,.btn-o
+utline-white.focus,.btn-o
+utline-white:not(:disabled):not(.disabled):active,.btn-o
+utline-white:not(:disabled):not(.disabled).active,.show>
+.btn-outline-white.dropdown-toggle{color :
+    #fff;b ackgr
+    ound-color:#c66;b order
+    -color:#c66;b ox-sh
+    adow:none}. btn-
+o
+
+utline-white.disabled,.btn-o
+utline-white:disabled{color :
+    #fff;b ackgr
+    ound-color:transp arent}.btn-
+o
+
+utline-white-2{color :
+    #fff;b ackgr
+    ound-color:transp arent;backgr
+    ound-image:none;b order
+    -color:#fff;b ox-sh
+    adow:none}. btn-
+o
+
+utline-white-2:hover,.btn-o
+utline-white-2:focus,.btn-o
+utline-white-2.focus,.btn-o
+utline-white-2:not(:disabled):not(.disabled):active,.btn-o
+utline-white-2:not(:disabled):not(.disabled).active,.show>
+.btn-outline-white-2.dropdown-toggle{color :
+    #fff;b ackgr
+    ound-color:#fcb94 1;border
+    -color:#fcb94 1;box-sh
+    adow:none}. btn-
+o
+
+utline-white-2.disabled,.btn-o
+utline-white-2:disabled{color :
+    #fff;b ackgr
+    ound-color:transp arent}.btn-
+o
+
+utline-white-4{color :
+    #fff;b ackgr
+    ound-color:transp arent;backgr
+    ound-image:none;b order
+    -color:#fff;b ox-sh
+    adow:none}. btn-
+o
+
+utline-white-4:hover,.btn-o
+utline-white-4:focus,.btn-o
+utline-white-4.focus,.btn-o
+utline-white-4:not(:disabled):not(.disabled):active,.btn-o
+utline-white-4:not(:disabled):not(.disabled).active,.show>
+.btn-outline-white-4.dropdown-toggle{color :
+    #c66;b ackgr
+    ound-color:#fff;b order
+    -color:#fff;b ox-sh
+    adow:none}. btn-
+o
+
+utline-white-4.disabled,.btn-o
+utline-white-4:disabled{color :
+    #fff;b ackgr
+    ound-color:transp arent}.news
+l
+
+etter-popup-container .input-group .btn:hover,.newsl
+etter-popup-container .input-group .btn:focus{backg r
+    ound-color:#c66}. bg-i
+m
+
+age .btn-link-dark:hover,.bg-im
+age .btn-link-dark:focus{color :
+    #c66;b order
+    -color:#c66}. bg-i
+m
+
+age .btn-outline-primary:hover,.bg-im
+age .btn-outline-primary:focus,.bg-im
+age .btn-outline-primary.focus,.bg-im
+age .btn-outline-primary:not(:disabled):not(.disabled):active,.bg-im
+age .btn-outline-primary:not(:disabled):not(.disabled).active,.show>
+.bg-image .btn-outline-primary.dropdown-toggle{backg r
+    ound-color:#c66;b order
+    -color:#c66}. bg-i
+m
+
+age .btn-outline-dark:hover,.bg-im
+age .btn-outline-dark:focus,.bg-im
+age .btn-outline-dark.focus,.bg-im
+age .btn-outline-dark:not(:disabled):not(.disabled):active,.bg-im
+age .btn-outline-dark:not(:disabled):not(.disabled).active,.show>
+.bg-image .btn-outline-dark.dropdown-toggle{color :
+    #c66}. card
+-
+
+title a{color :
+    #c66}. card
+-
+
+title a:before{color :
+    #c66}. card
+-
+
+title a.collapsed:hover,.card-
+title a.collapsed:focus{color :
+    #c66}. coun
+t
+
+-wrapper{color :
+    #c66}. feat
+u
+
+re-box i{color :
+    #c66}. feat
+u
+
+re-box-simple i{color :
+    #c66}. form
+-
+
+control:focus{borde r
+    -color:#c66}. cust
+o
+
+m-control.custom-radio .custom-control-input:checked ~ .cutm-control-label::before{borde r
+    -color:#c66}. cust
+o
+
+m-control.custom-radio .custom-control-input:checked ~ .cutm-control-label::after{backg r
+    ound-color:#c66}. icon
+-
+
+box-icon{color :
+    #c66}. icon
+-
+
+box-circle .icon-box-icon{backg r
+    ound-color:#c66}. inst
+a
+
+gram-feed-content a:hover,.insta
+gram-feed-content a:focus{color :
+    #c66}. clos
+e
+
+:hover,.close
+:focus{color :
+    #c66}. page
+-
+
+header h1 span{color :
+    #c66}. page
+-
+
+link:hover,.page-
+link:focus{color :
+    #c66}. page
+-
+
+item.active .page-link{color :
+    #c66}. soci
+a
+
+l-icon:hover,.socia
+l-icon:focus{color :
+    #c66;b order
+    -color:#c66}. test
+i
+
+monial-icon:before{color :
+    #c66}. nav.
+n
+
+av-tabs .nav-link:hover,.nav.n
+av-tabs .nav-link:focus{color :
+    #c66}. nav.
+n
+
+av-tabs .nav-item.show .nav-link,.nav.n
+av-tabs .nav-item .nav-link.active{color :
+    #c66}. nav.
+n
+
+av-pills .nav-link:hover,.nav.n
+av-pills .nav-link:focus{color :
+    #c66}. nav.
+n
+
+av-pills .nav-item.show .nav-link,.nav.n
+av-pills .nav-item .nav-link.active{color :
+    #c66;b order
+    -bottom-color:#c66}. nav.
+n
+
+av-border-anim .nav-link:before{backg r
+    ound-color:#c66}. titl
+e
+
+-link:hover,.title
+-link:focus{box-s h
+    adow:0 1px  0 0 #c66}.prod
+u
+
+ct-countdown.countdown-primary .countdown-amount{color :
+    #c66}. prod
+u
+
+ct-title a:hover,.produ
+ct-title a:focus{color :
+    #c66}. prod
+u
+
+ct-price{color :
+    #c66}. prod
+u
+
+ct-label.label-primary{backg r
+    ound-color:#c66}. prod
+u
+
+ct-label.label-secondary{backg r
+    ound-color:#fcb94 1}.prod
+u
+
+ct-label-text{color :
+    #c66}. rati
+n
+
+gs-primary .ratings-val{color :
+    #c66}. rati
+n
+
+gs-text a:hover,.ratin
+gs-text a:focus{color :
+    #c66}. btn-
+p
+
+roduct{color :
+    #c66}. btn-
+p
+
+roduct:hover span,.btn-p
+roduct:focus span{color :
+    #c66;b ox-sh
+    adow:0 1px  0 0 #c66}.btn-
+p
+
+roduct-icon{color :
+    #c66}. btn-
+p
+
+roduct-icon:hover,.btn-p
+roduct-icon:focus{backg r
+    ound-color:#c66}. prod
+u
+
+ct-body .btn-wishlist:hover,.produ
+ct-body .btn-wishlist:focus{color :
+    #c66}. btn-
+e
+
+xpandable span{backg r
+    ound-color:#c66}. prod
+u
+
+ct.product-4 .btn-product:hover,.produ
+ct.product-4 .btn-product:focus{backg r
+    ound-color:#fcb94 1}.prod
+u
+
+ct.product-5 .btn-product{color :
+    #c66}. prod
+u
+
+ct.product-5 .btn-product:hover,.produ
+ct.product-5 .btn-product:focus{backg r
+    ound-color:#c66}. prod
+u
+
+ct.product-7 .btn-product{color :
+    #c66}. prod
+u
+
+ct.product-7 .btn-product span{color :
+    #c66}. prod
+u
+
+ct.product-7 .btn-product:hover,.produ
+ct.product-7 .btn-product:focus{backg r
+    ound-color:#c66;b order
+    -bottom-color:#c66}. prod
+u
+
+ct.product-8 .new-price{color :
+    #c66}. prod
+u
+
+ct.product-8 .btn-product:before{color :
+    #c66}. prod
+u
+
+ct.product-8 .btn-product:hover,.produ
+ct.product-8 .btn-product:focus{backg r
+    ound-color:#c66}. prod
+u
+
+ct.product-list .btn-product:hover,.produ
+ct.product-list .btn-product:focus{color :
+    #c66}. prod
+u
+
+ct.product-list .btn-product.btn-cart{color :
+    #c66;b order
+    -bolor:#c66}. prod
+u
+
+ct.product-list .btn-product.btn-cart:hover,.produ
+ct.product-list .btn-product.btn-cart:focus{backg r
+    ound-color:#c66}. foot
+e
+
+r a:hover,.foote
+r a:focus{color :
+    #c66}. foot
+e
+
+r-dark.footer-2 .widget-about-title{color :
+    #c66}. head
+e
+
+r-top a:hover,.heade
+r-top a:focus{color :
+    #c66}. top-
+m
+
+enu span{color :
+    #c66}. head
+e
+
+r-menu a:hover,.heade
+r-menu a:focus{color :
+    #c66}. acco
+u
+
+nt a:hover,.accou
+nt a:focus{color :
+    #c66}. wish
+l
+
+ist a:hover,.wishl
+ist a:focus{color :
+    #c66}. wish
+l
+
+ist a .wishlist-count{backg r
+    ound-color:#c66}. cart
+-
+
+dropdown:hover .dropdown-toggle,.cart-
+dropdown.show .dropdown-toggle,.compa
+re-dropdown:hover .dropdown-toggle,.compa
+re-dropdown.show .dropdown-toggle{color :
+    #c66}. comp
+a
+
+re-product-title a:hover,.compa
+re-product-title a:focus{color :
+    #c66}. comp
+a
+
+re-actions .action-link:hover,.compa
+re-actions .action-link:focus{color :
+    #c66}. cart
+-
+
+dropdown .cart-count{backg r
+    ound-color:#c66}. cart
+-
+
+dropdown .product-title a:hover,.cart-
+dropdown .product-title a:focus{color :
+    #c66}. wish
+l
+
+ist-link .wishlist-count{backg r
+    ound-color:#c66}. wish
+l
+
+ist-link:hover,.wishl
+ist-link:focus{color :
+    #c66}. sear
+c
+
+h-toggle:hover,.searc
+h-toggle:focus,.searc
+h-toggle.active{color :
+    #c66}. menu
+ 
+
+li:hover>a,.menu 
+li.show>a,.menu 
+li.active>a{color :
+    #c66}. demo
+-
+
+item a:hover,.demo-
+item a:focus{color :
+    #c66}. tip{
+b
+
+ackg r
+    ound-color:#c66}. head
+e
+
+r-bottom .menu>li>a:before{backg r
+    ound-color:#c66}. cate
+g
+
+ory-dropdown .dropdown-toggle:before{backg r
+    ound-color:#c66}. cate
+g
+
+ory-dropdown .dropdown-toggle:hover,.categ
+ory-dropdown .dropdown-toggle:focus{color :
+    #fff;b ackgr
+    ound-color:#c66}. cate
+g
+
+ory-dropdown:not(.is-on):hover .dropdown-toggle{backg r
+    ound-color:#c66}. cate
+g
+
+ory-dropdown.show .dropdown-toggle{color :
+    #fff;b ackgr
+    ound-color:#c66}. cate
+g
+
+ory-dropdown .dropdown-item:hover,.categ
+ory-dropdown .dropdown-item:focus{color :
+    #c66}. menu
+-
+
+vertical li:hover>a,.menu-
+vertical li.show>a,.menu-
+vertical li.active>a{color :
+    #c66}. menu
+-
+
+vertical>li:hover>a,.menu-
+vertical>li.show>a,.menu-
+vertical>li.active>a{color :
+    #c66}. mobi
+l
+
+e-menu-close:hover,.mobil
+e-menu-close:focus{color :
+    #c66}. mobi
+l
+
+e-menu li a:hover,.mobil
+e-menu li a:focus{color :
+    #c66}. mobi
+l
+
+e-menu li.open>a,.mobil
+e-menu li.active>a{color :
+    #c66}. mmen
+u
+
+-btn:hover,.mmenu
+-btn:focus{color :
+    #c66}. mobi
+l
+
+e-search .form-control:focus{borde r
+    -color:#c66}. nav.
+n
+
+av-pills-mobile .nav-link.active,.nav.n
+av-pills-mobile .nav-link:hover,.nav.n
+av-pills-mobile .nav-link:focus{color :
+    #c66;b order
+    -bottom-color:#c66}. mobi
+l
+
+e-cats-menu li a:hover,.mobil
+e-cats-menu li a:focus{color :
+    #c66}. mobi
+l
+
+e-menu-light .mobile-menu li.open>a,.mobil
+e-menu-light .mobile-menu li.active>a{color :
+    #c66}. mobi
+l
+
+e-menu-light .mobile-search .form-control:focus{borde r
+    -color:#c66}. head
+e
+
+r-4 .header-search .header-search-wrapper{borde r
+    -color:#c66}. head
+e
+
+r-4 .dropdown.category-dropdown .dropdown-toggle:not(:hover):not(:focus){color :
+    #c66}@ medi
+a
+
+ screen and (max-width: 991px){.head e
+    r-4 .header-search-visible .header-search-wrapper:before{borde r
+        -bottom-color:#c66}} .hea
+    d
+e
+
+r-6 .header-middle a:hover,.heade
+r-6 .header-middle a:focus{color :
+    #c66}. head
+e
+
+r-8 .header-top{color :
+    #f4ddd d;backgr
+    ound-color:#c66}. head
+e
+
+r-10 .header-search .header-search-wrapper{borde r
+    -color:#c66}. head
+e
+
+r-10 .category-dropdown .dropdown-toggle{backg r
+    ound-color:#c66}. head
+e
+
+r-10 .menu-vertical .menu-title{color :
+    #c66}. head
+e
+
+r-12 .dropdown.category-dropdown .dropdown-toggle{backg r
+    ound-color:#c66}. head
+e
+
+r-13 .dropdown.category-dropdown .dropdown-toggle{backg r
+    ound-color:#c66}. head
+e
+
+r-14 .header-search .header-search-wrapper{borde r
+    -color:#c66}. head
+e
+
+r-14 .dropdown.category-dropdown .dropdown-toggle{backg r
+    ound-color:#c66}. entr
+y
+
+-video a:hover:after,.entry
+-video a:focus:after{color :
+    #c66}. entr
+y
+
+-meta a:hover,.entry
+-meta a:focus{color :
+    #c66;b ox-sh
+    adow:0 1px  0 #c66}.entr
+y
+
+-title a:hover,.entry
+-title a:focus{color :
+    #c66}. entr
+y
+
+-cats a:hover,.entry
+-cats a:focus{color :
+    #c66;b ox-sh
+    adow:0 1px  0 #c66}.read
+-
+
+more:hover,.read-
+more:focus{box-s h
+    adow:0 1px  0 0 #c66}.menu
+-
+
+cat a:hover,.menu-
+cat a:focus{color :
+    #c66}. menu
+-
+
+cat li.active a{color :
+    #c66;b ox-sh
+    adow:0 1px  0 #c66}.widg
+e
+
+t-search .btn:hover,.widge
+t-search .btn:focus{color :
+    #c66}. widg
+e
+
+t-cats a:hover,.widge
+t-cats a:focus{color :
+    #c66}. post
+s
+
+-list a:hover,.posts
+-list a:focus{color :
+    #c66}. tagc
+l
+
+oud a:hover,.tagcl
+oud a:focus{color :
+    #c66}. tabl
+e
+
+ .total-col{color :
+    #c66}. btn.
+b
+
+tn-spinner:hover,.btn.b
+tn-spinner:focus{color :
+    #c66}. tabl
+e
+
+.table-summary .summary-shipping-estimate a:hover,.table
+.table-summary .summary-shipping-estimate a:focus{color :
+    #c66;b order
+    -bottom-color:#c66}. side
+b
+
+ar-toggler:hover,.sideb
+ar-toggler:focus{color :
+    #c66}# filt
+e
+
+r-price-range{color :
+    #c66}. chec
+k
+
+out-discount label span{color :
+    #c66}. chec
+k
+
+out-discount .form-control:focus{borde r
+    -color:#c66}. tabl
+e
+
+.table-summary a:hover,.table
+.table-summary a:focus{color :
+    #c66}. tabl
+e
+
+.table-summary .summary-total td{color :
+    #c66}. acco
+r
+
+dion-summary .card-title a:before{borde r
+    -color:#c66}. acco
+r
+
+dion-summary .card-title a:after{backg r
+    ound-color:#c66}. payp
+a
+
+l-link:hover,.paypa
+l-link:focus{color :
+    #c66 ! important}.comi
+n
+
+g-countdown .countdown-amount{color :
+    #c66}. comi
+n
+
+g-countdown.countdown-separator .countdown-section:not(:last-child):after{color :
+    #c66}. cont
+a
+
+ct-box a:hover,.conta
+ct-box a:focus{color :
+    #c66}. cont
+a
+
+ct-list a:hover,.conta
+ct-list a:focus{color :
+    #c66}. cont
+a
+
+ct-list i{color :
+    #c66}. stor
+e
+
+ a:not(.btn):hover,.store
+ a:not(.btn):focus{color :
+    #c66}. nav-
+d
+
+ashboard .nav-link:hover,.nav-d
+ashboard .nav-link:focus,.nav-d
+ashboard .nav-link.active{color :
+    #c66}. form
+-
+
+tab .form-footer a:hover,.form-
+tab .form-footer a:focus{color :
+    #c66}. nav-
+f
+
+ilter a:hover,.nav-f
+ilter a:focus{color :
+    #c66}. nav-
+f
+
+ilter .active a{color :
+    #c66;b order
+    -bottom-color:#c66}. port
+f
+
+olio-title a:hover,.portf
+olio-title a:focus{color :
+    #c66}. port
+f
+
+olio-tags a{color :
+    #c66}. port
+f
+
+olio-tags a:hover,.portf
+olio-tags a:focus{color :
+    #c66;b ox-sh
+    adow:0 1px  0 #c66}.btn-
+p
+
+roduct-gallery:hover,.btn-p
+roduct-gallery:focus{backg r
+    ound-color:#c66}. prod
+u
+
+ct-gallery-item:before{borde r
+    -color:#c66}. prod
+u
+
+ct-pager-link:hover,.produ
+ct-pager-link:focus{color :
+    #c66}. prod
+u
+
+ct-pager-link:hover span,.produ
+ct-pager-link:focus span{box-s h
+    adow:0 1px  0 #c66}.prod
+u
+
+ct-details .product-cat a:hover,.produ
+ct-details .product-cat a:focus{color :
+    #c66;b ox-sh
+    adow:0 1px  0 #c66}.prod
+u
+
+ct-details .product-size a.active,.produ
+ct-details .product-size a:hover,.produ
+ct-details .product-size a:focus{color :
+    #c66;b order
+    -color:#c66}. size
+-
+
+guide:hover,.size-
+guide:focus{color :
+    #c66}. prod
+u
+
+ct-details-action .btn-cart{color :
+    #c66;b order
+    -color:#c66}. prod
+u
+
+ct-details-action .btn-cart:hover,.produ
+ct-details-action .btn-cart:focus{borde r
+    -color:#c66;b ackgr
+    ound-color:#c66}. prod
+u
+
+ct-details-tab .nav.nav-pills .nav-link:hover,.produ
+ct-details-tab .nav.nav-pills .nav-link:focus{color :
+    #c66;b order
+    -bottom-color:#c66}. prod
+u
+
+ct-desc-content a:hover,.produ
+ct-desc-content a:focus{color :
+    #c66;b order
+    -bottom-color:#c66}. revi
+e
+
+w h4 a:hover,.revie
+w h4 a:focus{color :
+    #c66}. revi
+e
+
+w-action a:hover,.revie
+w-action a:focus{color :
+    #c66;b ox-sh
+    adow:0 1px  0 #c66}.prod
+u
+
+ct-details-extended .nav.nav-pills .nav-link.active,.produ
+ct-details-extended .nav.nav-pills .nav-link:hover,.produ
+ct-details-extended .nav.nav-pills .nav-link:focus{borde r
+    -color:#c66}. edit
+o
+
+r-content a:hover,.edito
+r-content a:focus{color :
+    #c66;b ox-sh
+    adow:0 1px  0 #c66}.edit
+o
+
+r-content blockquote{borde r
+    -left-color:#c66}. entr
+y
+
+-tags a:hover,.entry
+-tags a:focus{color :
+    #c66}. entr
+y
+
+-author-details h4 a:hover,.entry
+-author-details h4 a:focus{color :
+    #c66}. auth
+o
+
+r-link:hover,.autho
+r-link:focus{color :
+    #c66;b ox-sh
+    adow:0 1px  0 #c66}.page
+r
+
+-link{color :
+    #c66}. page
+r
+
+-link:hover,.pager
+-link:focus{color :
+    #c66}. page
+r
+
+-link:hover:after,.pager
+-link:focus:after{color :
+    #c66}. comm
+e
+
+nt-reply:hover,.comme
+nt-reply:focus{color :
+    #c66;b ox-sh
+    adow:0 1px  0 #c66}.comm
+e
+
+nt-user h4 a:hover,.comme
+nt-user h4 a:focus{color :
+    #c66}. prod
+u
+
+ct-col .product-title a:hover,.produ
+ct-col .product-title a:focus{color :
+    #c66}. owl-
+t
+
+heme .owl-nav [class*='owl-']{color :
+    #c66}. owl-
+t
+
+heme .owl-nav [class*='owl-']:not(.disabled):hover{borde r
+    -color:#c66;b ackgr
+    ound:#c66}. owl-
+t
+
+heme.owl-light .owl-nav [class*='owl-']:not(.disabled):hover{borde r
+    -color:#c66}. owl-
+t
+
+heme.owl-light .owl-dots .owl-dot:hover span{borde r
+    -color:#c66;b ackgr
+    ound:#c66}. owl-
+t
+
+heme.owl-light .owl-dots .owl-dot.active span{borde r
+    -color:#c66;b ackgr
+    ound:#c66}. owl-
+f
+
+ull .owl-nav [class*='owl-']{color :
+    #c66}. owl-
+f
+
+ull .owl-nav [class*='owl-']:hover,.owl-f
+ull .owl-nav [class*='owl-']:focus{color :
+    #c66}. owl-
+f
+
+ull .owl-dots .owl-dot span{borde r
+    -color:#c66}. owl-
+f
+
+ull .owl-dots .owl-dot:hover span{borde r
+    -color:#c66;b ackgr
+    ound:#c66}. owl-
+f
+
+ull .owl-dots .owl-dot.active span{borde r
+    -color:#c66;b ackgr
+    ound:#c66}. owl-
+f
+
+ull.owl-nav-dark .owl-nav [class*='owl-']:hover,.owl-f
+ull.owl-nav-dark .owl-nav [class*='owl-']:focus{color :
+    #c66}. owl-
+s
+
+imple .owl-nav [class*='owl-']:not(.disabled):hover{color :
+    #c66}. owl-
+s
+
+imple.owl-light .owl-dots .owl-dot:hover span{borde r
+    -color:#c66;b ackgr
+    ound:#c66}. owl-
+s
+
+imple.owl-light .owl-dots .owl-dot.active span{borde r
+    -color:#c66;b ackgr
+    ound:#c66}. quic
+k
+
+View-content .owl-theme.owl-light .owl-nav [class*='owl-']{borde r
+    :none;f ont-s
+    ize:3rem;c olor:
+    #fff}. quic
+k
+
+View-content .owl-theme.owl-light .owl-nav [class*='owl-']:hover,.quick
+View-content .owl-theme.owl-light .owl-nav [class*='owl-']:focus{color :
+    #c66;b ackgr
+    ound-color:transp arent}.quic
+k
+
+View-content .details-action-wrapper .btn-product:hover span,.quick
+View-content .details-action-wrapper .btn-product:focus span{color :
+    #c66;b ox-sh
+    adow:0 1px  0 0 #c66}.quic
+k
+
+View-content .product-details-action .btn-cart{trans i
+    tion:color  .3s}.quic
+k
+
+View-content .product-details-action .btn-cart:hover,.quick
+View-content .product-details-action .btn-cart:focus{borde r
+    -color:#c66;b ackgr
+    ound-color:#c66;c olor:
+    #fff}. quic
+k
+
+View-content .btn-wishlist,.quick
+View-content .btn-compare{borde r
+    :none}. quic
+k
+
+View-content .btn-wishlist:before,.quick
+View-content .btn-compare:before{color :
+    #c66}. quic
+k
+
+View-content .btn-wishlist:hover,.quick
+View-content .btn-wishlist:focus,.quick
+View-content .btn-compare:hover,.quick
+View-content .btn-compare:focus{color :
+    #c66;b ackgr
+    ound-color:transp arent}.quic
+k
+
+View-content .btn-wishlist:hover span,.quick
+View-content .btn-wishlist:focus span,.quick
+View-content .btn-compare:hover span,.quick
+View-content .btn-compare:focus span{color :
+    #c66}. quic
+k
+
+View-content .btn-fullscreen:hover,.quick
+View-content .btn-fullscreen:focus{color :
+    #fff;b ackgr
+    ound-color:#c66}. quic
+k
+
+View-content .product-left .carousel-dot.active img{opaci t
+    y:1;box- sh
+    adow:0 0 0  1px #c66}.quic
+k
+
+View-content .product-left .carousel-dot:hover img,.quick
+View-content .product-left .carousel-dot:focus img{opaci t
+    y:1}.new s
+l
+
+etter-popup-container .banner-title span{color :
+    #c66} 
+
+
+
+/*# sourceMappingURL=skin-demo-7.css.map */
