@@ -4,6 +4,8 @@
     <!--Main container start -->
 
     <!--Main container start -->
+</div>
+
     <div class="mailbox-view-area mg-tb-15">
         <div class="container-fluid">
             <div class="row">

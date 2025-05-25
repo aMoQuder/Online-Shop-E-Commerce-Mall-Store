@@ -41,9 +41,7 @@ class CartController extends Controller
                 'price' => $item->price,
             ]);
         }
-
         CartFacade::clear();
-
         return redirect()->route('cart.list')->with("massege","you check out success");
     }
 

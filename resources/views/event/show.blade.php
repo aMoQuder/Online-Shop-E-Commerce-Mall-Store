@@ -1,6 +1,8 @@
 @extends('layouts.dashboardApp')
 
 @section('content')
+</div>
+
 <div class="blog-details-area mg-tb-15">
     <div class="container-fluid">
         <div class="row">
@@ -22,7 +24,7 @@
                                         <span><a href="#"><i class="fa fa-heart"></i> 20 Likes</a></span>
                                         <span><a href="#"><i class="fa fa-comments-o"></i> 02 Comments</a></span>
                                     </div>
-                                    
+
                             </div>
                             </div>
                         </div>

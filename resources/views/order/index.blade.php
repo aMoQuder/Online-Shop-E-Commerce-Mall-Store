@@ -1,6 +1,8 @@
 @extends('layouts.dashboardApp')
 
 @section('content')
+</div>
+
 
     <div class="mailbox-area mg-tb-15">
         <div class="container-fluid">

@@ -2,6 +2,8 @@
 
 @section('content')
     <!-- Basic Form Start -->
+</div>
+
     <div class="basic-form-area mg-tb-15">
         <div class="container-fluid">
 

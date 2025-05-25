@@ -8,10 +8,11 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
 
-  
+
     public function index()
     {
         $color=color::all();
+
         return view('home',["colors"=>$color]);
     }
 }

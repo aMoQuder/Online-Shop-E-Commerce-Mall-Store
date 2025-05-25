@@ -2,11 +2,13 @@
 
 @section('content')
     <!--Main container start -->
+    </div>
+
     <div class="mailbox-view-area mg-tb-15">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3 col-md-3 col-sm-3 col-xs-12 ">
-                    <div class="hpanel responsive-mg-b-30 ">
+                    <div class="hpanel responsive-mg-b-30 " style="margin-top:15px;">
                         <div class="panel-body">
                             <a href="{{ route('createProduct') }}" class="btn btn-success compose-btn btn-block m-b-md">add
                                 product</a>
@@ -61,7 +63,9 @@
                                                             alt="" /></td>
                                                     <td> {{ $item->name }}</td>
                                                     <td>
-                                                        <button class="ps-setting">Paused</button>
+                                                        @if ($item->id % 4 == 0)
+                                                            <button class="ps-setting">Paused</button>
+                                                        @endif
                                                     </td>
                                                     <td> {{ $item->price }}</td>
                                                     <td>
@@ -91,12 +95,26 @@
                                         <div class="custom-pagination">
                                             <nav aria-label="Page navigation example">
                                                 <ul class="pagination">
-                                                    <li class="page-item"><a class="page-link" href="#">Previous</a>
+                                                    <li class="page-item {{ $product->onFirstPage() ? 'disabled' : '' }}">
+                                                        <a class="page-link" href="{{ $product->previousPageUrl() }}"
+                                                            aria-label="Previous" tabindex="-1"
+                                                            aria-disabled="{{ $product->onFirstPage() ? 'true' : 'false' }}">
+                                                            Prev
+                                                        </a>
                                                     </li>
-                                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+
+
+                                                    @foreach ($product->getUrlRange(1, $product->lastPage()) as $page => $url)
+                                                        <li
+                                                            class="page-item {{ $page == $product->currentPage() ? 'active' : '' }}">
+                                                            <a class="page-link"
+                                                                href="{{ $url }}">{{ $page }}</a>
+                                                        </li>
+                                                    @endforeach
+                                                    <li
+                                                        class="page-item {{ $product->hasMorePages() ? '' : 'disabled' }}">
+                                                        <a class="page-link" href="{{ $product->nextPageUrl() }}">Next</a>
+                                                    </li>
                                                 </ul>
                                             </nav>
                                         </div>

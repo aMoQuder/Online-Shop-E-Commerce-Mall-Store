@@ -29,7 +29,9 @@
                                         data-sizes="{{ implode(',', $product->size_id) }}">
                                         <div class="product product-1 text-center">
                                             <figure class="product-media">
-                                                <span class="product-label label-new">New</span>
+                                                @if ($product->id % 3 == 0)
+                                                    <span class="product-label label-new">New</span>
+                                                @endif
                                                 <a href="{{ route('Detailsproduct', $product->id) }}">
                                                     <img src="{{ asset('/product/image/' . $product->image) }}"
                                                         alt="Product image" style="height: 160px; width: 100%;"
@@ -70,17 +72,20 @@
                                                     </div>
                                                     <span class="ratings-text">(2 Reviews)</span>
                                                 </div>
-                                                <div class="product-nav product-nav-thumbs">
-                                                    <a href="{{ route('Detailsproduct', $product->id) }}"
-                                                        class="active"><img src="assets/images/products/product-4-thumb.jpg"
-                                                            alt="product desc"></a>
-                                                    <a href="{{ route('Detailsproduct', $product->id) }}"><img
-                                                            src="assets/images/products/product-4-2-thumb.jpg"
-                                                            alt="product desc"></a>
-                                                    <a href="{{ route('Detailsproduct', $product->id) }}"><img
-                                                            src="assets/images/products/product-4-3-thumb.jpg"
-                                                            alt="product desc"></a>
-                                                </div>
+                                                @if ($product->parent_id == 11)
+                                                    <div class="product-nav product-nav-thumbs">
+                                                        <a href="{{ route('Detailsproduct', $product->id) }}"
+                                                            class="active"><img
+                                                                src="assets/images/products/product-4-thumb.jpg"
+                                                                alt="product desc"></a>
+                                                        <a href="{{ route('Detailsproduct', $product->id) }}"><img
+                                                                src="assets/images/products/product-4-2-thumb.jpg"
+                                                                alt="product desc"></a>
+                                                        <a href="{{ route('Detailsproduct', $product->id) }}"><img
+                                                                src="assets/images/products/product-4-3-thumb.jpg"
+                                                                alt="product desc"></a>
+                                                    </div>
+                                                @endif
                                             </div>
                                         </div>
                                     </div>
@@ -175,32 +180,31 @@
                             </div>
 
                             <div class="widget widget-collapsible">
-                                <h3 class="widget-title">
-                                    <a data <!-- Color filter -->
-                                        <div class="widget widget-collapsible">
-                                            <h3 class="widget-title">
-                                                <a data-toggle="collapse" href="#widget-3" role="button"
-                                                    aria-expanded="true" aria-controls="widget-3">Color</a>
-                                            </h3>
-                                            <div class="collapse show" id="widget-3">
-                                                <div class="widget-body">
-                                                    <div class="filter-items">
-                                                        @foreach ($colors as $color)
-                                                            <div class="filter-item">
-                                                                <div class="custom-control custom-checkbox">
-                                                                    <input type="checkbox"
-                                                                        class="custom-control-input filter-color"
-                                                                        id="color-{{ $color->id }}"
-                                                                        value="{{ $color->id }}">
-                                                                    <label class="custom-control-label"
-                                                                        for="color-{{ $color->id }}">{{ $color->name }}</label>
-                                                                </div>
-                                                            </div>
-                                                        @endforeach
+
+                                <div class="widget widget-collapsible">
+                                    <h3 class="widget-title">
+                                        <a data-toggle="collapse" href="#widget-3" role="button" aria-expanded="true"
+                                            aria-controls="widget-3">Color</a>
+                                    </h3>
+                                    <div class="collapse show" id="widget-3">
+                                        <div class="widget-body">
+                                            <div class="filter-items">
+                                                @foreach ($colors as $color)
+                                                    <div class="filter-item">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input type="checkbox"
+                                                                class="custom-control-input filter-color"
+                                                                id="color-{{ $color->id }}"
+                                                                value="{{ $color->id }}">
+                                                            <label class="custom-control-label"
+                                                                for="color-{{ $color->id }}">{{ $color->name }}</label>
+                                                        </div>
                                                     </div>
-                                                </div>
+                                                @endforeach
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
                             </div>
                     </aside>
                 </div>

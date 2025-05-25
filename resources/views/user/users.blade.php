@@ -3,6 +3,7 @@
 @section('content')
     <!--Main container start -->
 
+</div>
 
     <div class="mailbox-area mg-tb-15">
         <div class="container-fluid">

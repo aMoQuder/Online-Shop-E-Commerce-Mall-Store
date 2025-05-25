@@ -1,6 +1,8 @@
 @extends('layouts.dashboardApp')
 
 @section('content')
+</div>
+
     <div class="container-fluid" style="padding-top: 15px; padding-bottom:15px;">
         <div class="db-breadcrumb">
             <h4 class="breadcrumb-title">Review</h4>

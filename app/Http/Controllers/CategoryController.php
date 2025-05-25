@@ -8,12 +8,12 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-    public function index()
+    public function create()
     {
 
         return view('products.addCategory');
     }
-    public function create(CategoryRequest $request)
+    public function store(CategoryRequest $request)
     {
         if ($request->hasFile('image')) {
             $image = $request->image;

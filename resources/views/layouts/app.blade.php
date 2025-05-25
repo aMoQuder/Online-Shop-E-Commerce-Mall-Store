@@ -1,36 +1,57 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Molla - Bootstrap eCommerce Template</title>
-        <meta name="keywords" content="HTML5 Template">
-        <meta name="description" content="Molla - Bootstrap eCommerce Template">
-        <meta name="author" content="p-themes">
-        <!-- Favicon -->
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
-        <link rel="manifest" href="assets/images/icons/site.html">
-        <link rel="mask-icon" href="assets/images/icons/safari-pinned-tab.svg" color="#666666">
-        <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
-        <meta name="apple-mobile-web-app-title" content="Molla">
-        <meta name="application-name" content="Molla">
-        <meta name="msapplication-TileColor" content="#cc9966">
-        <meta name="msapplication-config" content="assets/images/icons/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff">
-        <link rel="stylesheet" href="assets/vendor/line-awesome/line-awesome/line-awesome/css/line-awesome.min.css">
-        <!-- Plugins CSS File -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/plugins/owl-carousel/owl.carousel.css">
-        <link rel="stylesheet" href="assets/css/plugins/magnific-popup/magnific-popup.css">
-        <link rel="stylesheet" href="assets/css/plugins/jquery.countdown.css">
-        <!-- Main CSS File -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/skins/skin-demo-13.css">
-        <link rel="stylesheet" href="assets/css/demos/demo-13.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Molla - Bootstrap eCommerce Template</title>
+    <meta name="keywords" content="HTML5 Template">
+    <meta name="description" content="Molla - Bootstrap eCommerce Template">
+    <meta name="author" content="p-themes">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/icons/site.html">
+    <link rel="mask-icon" href="assets/images/icons/safari-pinned-tab.svg" color="#666666">
+    <link rel="shortcut icon" href="assets/images/icons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="Molla">
+    <meta name="application-name" content="Molla">
+    <meta name="msapplication-TileColor" content="#cc9966">
+    <meta name="msapplication-config" content="assets/images/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="assets/vendor/line-awesome/line-awesome/line-awesome/css/line-awesome.min.css">
+    <!-- Plugins CSS File -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/plugins/jquery.countdown.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/skins/skin-demo-13.css">
+    <link rel="stylesheet" href="assets/css/demos/demo-13.css">
+    <style>
+        .goog-te-gadget img {
+            vertical-align: middle;
+            border: none;
+            display: none;
+        }
+
+        .goog-te-gadget-simple {
+            background-color: #FFF;
+            font-size: 13pt;
+            display: inline-block;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            cursor: pointer;
+        }
+        .VIpgJd-ZVi9od-xl07Ob-lTBxed span {
+            border-left: 8px solid rgb(255 255 255)!important;
+        }
+    </style>
+
+</head>
 
 
 <body>
@@ -40,8 +61,8 @@
     <!-- ------------------------------------------------------------------------------------------------------------  -->
     <!-- start project -->
 
-        <div id="app">
-            <div class="page-wrapper">
+    <div id="app">
+        <div class="page-wrapper">
             {{-- @include('temp.navbarApp') --}}
 
             <div id="google_translate_element" style="display: none;"></div> <!-- إخفاء أداة الترجمة الأصلية -->
@@ -55,7 +76,7 @@
     <!-- end project -->
     <!-- ------------------------------------------------------------------------------------------------------------- -->
 
-   <!-- End .page-wrapper --><!-- End .page-wrapper -->
+    <!-- End .page-wrapper --><!-- End .page-wrapper -->
     <button id="scroll-top" title="Back to Top"><i class="icon-arrow-up"></i></button>
 
     <!-- Mobile Menu -->
@@ -70,21 +91,23 @@
 
             <ul class="nav nav-pills-mobile nav-border-anim" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" id="mobile-menu-link" data-toggle="tab" href="#mobile-menu-tab" role="tab" aria-controls="mobile-menu-tab" aria-selected="true">Menu</a>
+                    <a class="nav-link active" id="mobile-menu-link" data-toggle="tab" href="#mobile-menu-tab"
+                        role="tab" aria-controls="mobile-menu-tab" aria-selected="true">Menu</a>
                 </li>
 
             </ul>
 
             <div class="tab-content">
-                <div class="tab-pane fade show active" id="mobile-menu-tab" role="tabpanel" aria-labelledby="mobile-menu-link">
+                <div class="tab-pane fade show active" id="mobile-menu-tab" role="tabpanel"
+                    aria-labelledby="mobile-menu-link">
                     <nav class="mobile-nav">
                         <ul class="mobile-menu">
                             <li class="active">
-                                <a href="{{route("welcome")}}">Home</a>
+                                <a href="{{ route('welcome') }}">Home</a>
 
                             </li>
                             <li>
-                                <a href="{{route("shop")}}">Shop</a>
+                                <a href="{{ route('shop') }}">Shop</a>
 
                             </li>
 
@@ -92,17 +115,17 @@
                                 <a href="#">Pages</a>
                                 <ul>
                                     <li>
-                                        <a href="{{route("about")}}">About</a>
+                                        <a href="{{ route('about') }}">About</a>
 
 
                                     </li>
                                     <li>
-                                        <a href="{{route("about")}}">Contact</a>
+                                        <a href="{{ route('contact') }}">Contact</a>
 
 
                                     </li>
-                                    <li><a href="{{route("login")}}">Login</a></li>
-                                    <li><a href="{{route("register")}}">register</a></li>
+                                    <li><a href="{{ route('login') }}">Login</a></li>
+                                    <li><a href="{{ route('register') }}">register</a></li>
 
                                 </ul>
                             </li>
@@ -124,10 +147,14 @@
             <!-- End .tab-content -->
 
             <div class="social-icons">
-                <a href="#" class="social-icon" target="_blank" title="Facebook"><i class="icon-facebook-f"></i></a>
-                <a href="#" class="social-icon" target="_blank" title="Twitter"><i class="icon-twitter"></i></a>
-                <a href="#" class="social-icon" target="_blank" title="Instagram"><i class="icon-instagram"></i></a>
-                <a href="#" class="social-icon" target="_blank" title="Youtube"><i class="icon-youtube"></i></a>
+                <a href="#" class="social-icon" target="_blank" title="Facebook"><i
+                        class="icon-facebook-f"></i></a>
+                <a href="#" class="social-icon" target="_blank" title="Twitter"><i
+                        class="icon-twitter"></i></a>
+                <a href="#" class="social-icon" target="_blank" title="Instagram"><i
+                        class="icon-instagram"></i></a>
+                <a href="#" class="social-icon" target="_blank" title="Youtube"><i
+                        class="icon-youtube"></i></a>
             </div>
             <!-- End .social-icons -->
         </div>
@@ -148,30 +175,38 @@
                         <div class="form-tab">
                             <ul class="nav nav-pills nav-fill nav-border-anim" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="signin-tab" data-toggle="tab" href="#signin" role="tab" aria-controls="signin" aria-selected="true">Sign In</a>
+                                    <a class="nav-link active" id="signin-tab" data-toggle="tab" href="#signin"
+                                        role="tab" aria-controls="signin" aria-selected="true">Sign In</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="false">Register</a>
+                                    <a class="nav-link" id="register-tab" data-toggle="tab" href="#register"
+                                        role="tab" aria-controls="register" aria-selected="false">Register</a>
                                 </li>
                             </ul>
                             <div class="tab-content" id="tab-content-5">
-                                <div class="tab-pane fade show active" id="signin" role="tabpanel" aria-labelledby="signin-tab">
-                                    <form method="POST" action="{{ route('login') }}" >
+                                <div class="tab-pane fade show active" id="signin" role="tabpanel"
+                                    aria-labelledby="signin-tab">
+                                    <form method="POST" action="{{ route('login') }}">
                                         @csrf
                                         <div class="form-group">
                                             <label for="singin-email">Username or email address *</label>
-                                            <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                                            <input id="email" type="email"
+                                                class="form-control @error('email') is-invalid @enderror"
+                                                name="email" value="{{ old('email') }}" required
+                                                autocomplete="email" autofocus>
                                             @error('email')
-                                            <span class="invalid-feedback" role="alert">
-                                                <strong>{{ $message }}</strong>
-                                            </span>
-                                        @enderror
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                            @enderror
                                         </div>
                                         <!-- End .form-group -->
 
                                         <div class="form-group">
                                             <label for="singin-password">Password *</label>
-                                            <input type="password" id="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                                            <input type="password" id="password"
+                                                class="form-control @error('password') is-invalid @enderror"
+                                                name="password" required autocomplete="current-password">
 
                                             @error('password')
                                                 <span class="invalid-feedback" role="alert">
@@ -188,15 +223,17 @@
                                             </button>
 
                                             <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-                                                <label class="custom-control-label" for="signin-remember">Remember Me</label>
+                                                <input type="checkbox" class="custom-control-input" name="remember"
+                                                    id="remember" {{ old('remember') ? 'checked' : '' }}>
+                                                <label class="custom-control-label" for="signin-remember">Remember
+                                                    Me</label>
                                             </div>
                                             <!-- End .custom-checkbox -->
 
                                             @if (Route::has('password.request'))
-
-                                            <a href="{{ route('password.request') }}" class="forgot-link">Forgot Your Password?</a>
-                                        @endif
+                                                <a href="{{ route('password.request') }}" class="forgot-link">Forgot
+                                                    Your Password?</a>
+                                            @endif
                                         </div>
                                         <!-- End .form-footer -->
                                     </form>
@@ -221,12 +258,16 @@
                                     <!-- End .form-choice -->
                                 </div>
                                 <!-- .End .tab-pane -->
-                                <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                                <div class="tab-pane fade" id="register" role="tabpanel"
+                                    aria-labelledby="register-tab">
                                     <form method="POST" action="{{ route('register') }}">
                                         @csrf
                                         <div class="form-group">
                                             <label for="register-email">User Name</label>
-                                            <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
+                                            <input id="name" type="text"
+                                                class="form-control @error('name') is-invalid @enderror"
+                                                name="name" value="{{ old('name') }}" required
+                                                autocomplete="name" autofocus>
 
                                             @error('name')
                                                 <span class="invalid-feedback" role="alert">
@@ -236,30 +277,38 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="register-email">Your email address *</label>
-                                            <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
+                                            <input id="email" type="email"
+                                                class="form-control @error('email') is-invalid @enderror"
+                                                name="email" value="{{ old('email') }}" required
+                                                autocomplete="email">
 
                                             @error('email')
                                                 <span class="invalid-feedback" role="alert">
                                                     <strong>{{ $message }}</strong>
                                                 </span>
-                                            @enderror                                        </div>
+                                            @enderror
+                                        </div>
                                         <!-- End .form-group -->
 
                                         <div class="form-group">
                                             <label for="register-password">Password *</label>
-                                            <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+                                            <input id="password" type="password"
+                                                class="form-control @error('password') is-invalid @enderror"
+                                                name="password" required autocomplete="new-password">
 
                                             @error('password')
                                                 <span class="invalid-feedback" role="alert">
                                                     <strong>{{ $message }}</strong>
                                                 </span>
-                                            @enderror                                        </div>
+                                            @enderror
+                                        </div>
                                         <!-- End .form-group -->
                                         <!-- End .form-group -->
 
                                         <div class="form-group">
                                             <label for="register-password">Conferm Password </label>
-                                            <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                                            <input id="password-confirm" type="password" class="form-control"
+                                                name="password_confirmation" required autocomplete="new-password">
                                         </div>
                                         <!-- End .form-group -->
 
@@ -270,8 +319,10 @@
                                             </button>
 
                                             <div class="custom-control custom-checkbox">
-                                                <input type="checkbox" class="custom-control-input" id="register-policy" required>
-                                                <label class="custom-control-label" for="register-policy">I agree to the <a href="#">privacy policy</a> *</label>
+                                                <input type="checkbox" class="custom-control-input"
+                                                    id="register-policy" required>
+                                                <label class="custom-control-label" for="register-policy">I agree to
+                                                    the <a href="#">privacy policy</a> *</label>
                                             </div>
                                             <!-- End .custom-checkbox -->
                                         </div>
@@ -314,35 +365,23 @@
     <!-- End .modal -->
 
 
-    <div id="google_translate_element" style="display: none;"></div> <!-- إخفاء أداة الترجمة الأصلية -->
+    <!-- مكان ظهور أداة الترجمة -->
 
-<script type="text/javascript">
-    function googleTranslateElementInit() {
-        new google.translate.TranslateElement({
-            pageLanguage: 'en',  // لغة الموقع الأصلية
-            includedLanguages: 'en,ar,ru,fr',  // اللغات المتاحة
-            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-        }, 'google_translate_element');
-    }
-
-    function translatePage(lang) {
-        var googleTranslateFrame = document.querySelector('iframe.goog-te-menu-frame');
-        if (googleTranslateFrame) {
-            var translateDoc = googleTranslateFrame.contentDocument || googleTranslateFrame.contentWindow.document;
-            var langElements = translateDoc.querySelectorAll('.goog-te-menu2-item span.text');
-
-            langElements.forEach(function (element) {
-                if (element.innerText === lang.toUpperCase()) {
-                    element.click();
-                }
-            });
-        } else {
-            alert("Google Translate is still loading.");
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en', // لغة الموقع الأصلية
+                includedLanguages: 'ar,en,fr,es', // اللغات المتاحة
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE // تخطيط الأداة
+            }, 'google_translate_element');
         }
-    }
-</script>
+    </script>
 
-<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+
+
+
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>

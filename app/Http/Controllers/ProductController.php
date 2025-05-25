@@ -18,7 +18,7 @@ class ProductController extends Controller
 {
     public function all()
     {
-        $product = product::all();
+        $product = product::inRandomOrder()->paginate(12);
         $category = category::all();
         return view('products.product', ["product" => $product], ["category" => $category]);
     }
@@ -70,7 +70,7 @@ class ProductController extends Controller
         }
 
         // Paginate results
-        $products = $query->orderBy('created_at', 'desc')->paginate(12);
+        $products = $query->inRandomOrder()->paginate(12);
 
         // Fetch filters data
         $categories = Category::all();
@@ -206,7 +206,7 @@ class ProductController extends Controller
     public function delet($id)
     {
         $old_id = $id;
-        $delete = true;
+        // $delete = true;
 
         $products = product::FindOrfail($old_id);
         $orderitem = OrderItem::all();

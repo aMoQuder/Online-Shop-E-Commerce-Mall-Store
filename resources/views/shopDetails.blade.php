@@ -46,7 +46,7 @@
 
                                         <a class="product-gallery-item" href="#"
                                             data-image="{{ asset('/product/image/' . $product->image) }}"
-                                            data-zoom-image="{{ asset('/product/image/' . $product->image) }}">>
+                                            data-zoom-image="{{ asset('/product/image/' . $product->image) }}">
                                             <img src="{{ asset('/product/image/' . $product->image) }}"
                                                 alt="product with model">
                                         </a>

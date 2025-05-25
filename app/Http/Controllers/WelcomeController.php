@@ -12,9 +12,9 @@ class WelcomeController extends Controller
 {
     public function index()
     {
-        $product = product::all();
+        $product = product::inRandomOrder()->get();
         // جلب جميع التصنيفات
-        $categories = Category::all();
+        $categories = Category::inRandomOrder()->take(6)->get();
         // لكل تصنيف، قم بجلب المنتجات المرتبطة به بناءً على parent_id
         $categoriesWithProducts = $categories->map(function ($category) {
             $category->products = Product::where('parent_id', $category->id)->get();

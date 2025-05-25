@@ -8,6 +8,7 @@
                         <ul>
                             <li><a href="#">Eur</a></li>
                             <li><a href="#">Usd</a></li>
+
                         </ul>
                     </div>
                     <!-- End .header-menu -->
@@ -19,35 +20,7 @@
                     <!-- End .header-menu -->
                     <ul class="menu sf-arrows">
                         <li>
-                            <a class="sf-with-ul">language</a>
-
-                            <div class="megamenu megamenu-sm">
-                                <div class="row no-gutters">
-                                    <div class="col-md-12">
-                                        <div class="menu-col">
-                                            <div class="menu-title">all language</div>
-                                            <!-- End .menu-title -->
-
-                                            <ul>
-                                                <li><a href="#"
-                                                        onclick="translatePage('en'); return false;">EN</a></li>
-                                                <li><a href="#"
-                                                        onclick="translatePage('ar'); return false;">AR</a></li>
-                                                <li><a href="#"
-                                                        onclick="translatePage('ru'); return false;">RU</a></li>
-                                                <li><a href="#"
-                                                        onclick="translatePage('fr'); return false;">FR</a></li>
-                                            </ul>
-
-                                        </div>
-                                        <!-- End .menu-col -->
-                                    </div>
-                                    <!-- End .col-md-6 -->
-
-                                </div>
-                                <!-- End .row -->
-                            </div>
-                            <!-- End .megamenu megamenu-sm -->
+                            <div id="google_translate_element"></div>
                         </li>
                     </ul>
                 </div>

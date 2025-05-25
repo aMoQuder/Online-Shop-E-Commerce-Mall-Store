@@ -3,6 +3,8 @@
 @section('content')
 
     <!--Main container start -->
+</div>
+
 
         <div class="container-fluid" style="padding-top: 15px; padding-bottom:15px;">
             <div class="db-breadcrumb">

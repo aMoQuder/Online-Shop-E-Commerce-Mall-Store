@@ -27,34 +27,31 @@ class OrderController extends Controller
         return view('order.show', compact('order'), ["size" => $size, "color" => $color]);
     }
 
-    public function showItem(Order $order, OrderItem $item)
-    {
-        if (!$order->items->contains($item)) {
-            abort(404);
-        }
+    // public function showItem(Order $order, OrderItem $item)
+    // {
+    //     if (!$order->items->contains($item)) {
+    //         abort(404);
+    //     }
 
-        return view('admin.orders.item', compact('order', 'item'));
-    }
+    //     return view('admin.orders.item', compact('order', 'item'));
+    // }
 
 
     public function destroy($id)
     {
         // البحث عن الطلب بواسطة الـ ID
         $order = Order::findOrFail($id);
-
-
-
 //   (Order Items)  حذف صورة
-        $orderImage = $order->items()->image;
+        $orderImage = $order->items();
         $products = product::all();
-        foreach ($orderImage as $itemOrder) {
-            $delete = true;
+        foreach ($orderImage->image as $itemOrder) {
+            $found = false;
             foreach ($products as $item) {
                 if ($itemOrder == $item->image) {
-                    $delete = false;
+                    $found = true;
                 }
             }
-            if ($delete) {
+            if (!$found) {
                 if (File::exists(public_path('product/image/' . $itemOrder))) {
                     File::delete(public_path('product/image/' . $itemOrder));
                 };

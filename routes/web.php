@@ -66,8 +66,8 @@ Route::group(['middleware' => 'CheckAdmin'], function () {
     // -----------------------------product operation-----------------------------
 
     // -----------------------------category operation-----------------------------
-    Route::post('/createCategory', 'CategoryController@create')->name('createCategory');
-    Route::get('/addcategory', 'CategoryController@index')->name('addcategory');
+    Route::post('/createCategory', 'CategoryController@store')->name('createCategory');
+    Route::get('/addcategory', 'CategoryController@create')->name('addcategory');
     // -----------------------------category operation-----------------------------
 
     //  ------------------- Start Events opretion ----------------------

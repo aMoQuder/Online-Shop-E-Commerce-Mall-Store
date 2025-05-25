@@ -2,6 +2,8 @@
 
 
 @section('content')
+</div>
+
     <div class="product-cart-area mg-tb-15">
         <div class="container-fluid">
             <div class="row">
